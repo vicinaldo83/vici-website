@@ -1,0 +1,21 @@
+:root {
+    inline-size: 100%;
+    block-size: 100dvb;
+
+    margin: 0;
+}
+
+.fullscreen {
+    inline-size: 100%;
+    block-size: 100dvb;    
+}
+
+.no-scrollbar {
+    overflow: hidden;
+}
+
+.rotate {
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(180deg);
+}
